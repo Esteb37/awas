@@ -1,0 +1,24 @@
+.header {
+	background-color: var(--dark-blue);
+	height: 20vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 5vw;
+}
+
+.header-back {
+	margin-left: 2vw;
+	font-size: 8vw;
+	background: none;
+}
+
+.header-logo {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: absolute;
+	left: 35%;
+}

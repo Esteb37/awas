@@ -1,0 +1,60 @@
+.profile .profile-picture {
+	border: 1vw outset var(--grey-blue);
+	width: 30vw;
+	height: 30vw;
+	border-radius: 50vw;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resi*/
+	margin-top: 5vw;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 5vw;
+}
+
+.profile h1 {
+	font-size: 8vw;
+}
+
+.profile h2 {
+	font-size: 6vw;
+	margin-top: 5vw;
+}
+
+.profile h3 {
+	font-size: 5vw;
+	margin-top: 3vw;
+	padding: 3vw;
+	border-radius: 3vw;
+	margin-bottom: 5vw;
+}
+
+.profile-danger {
+	color: white;
+}
+
+.profile select {
+	font-size: 5vw;
+	width: 80vw;
+	margin: 5vw 0vw;
+}
+
+.update-location {
+	display: flex;
+	width: 80vw;
+	align-items: center;
+	margin-top: 5vw;
+}
+
+.update-location .form-control {
+	margin-right: 5vw;
+	font-size: 5vw;
+}
+
+.update-location .mr-4 {
+	margin-right: 4vw;
+}

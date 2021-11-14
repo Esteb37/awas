@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "hackatec-2021"
+  },
+  "targets": {
+    "hackatec-2021": {
+      "hosting": {
+        "app": [
+          "awasapp"
+        ]
+      }
+    }
+  }
+}

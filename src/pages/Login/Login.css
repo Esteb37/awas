@@ -1,0 +1,131 @@
+.login form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10vw 0 10vw;
+	font-size: 4vw;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.login-logo {
+	width: 25vw !important;
+	margin-bottom: 10vw;
+	margin-top: 5vw;
+}
+
+.login .input-group,
+.popup-content .input-group {
+	align-items: center;
+}
+
+.login .input-group-prepend {
+	align-items: center;
+	height: 100% !important;
+}
+
+.login .form-control,
+.popup-content .form-control {
+	font-size: 5vw !important;
+	height: 10vw;
+}
+.login .form-check {
+	margin-top: 5vw;
+}
+
+.login .input-group-text,
+.popup-content .input-group-text {
+	align-items: center;
+	background-color: var(--light-blue);
+	font-size: 4vw;
+	height: 10vw;
+}
+
+.button-login {
+	margin: 5vw;
+	font-size: 5vw;
+}
+
+.login .login-button-access img {
+	width: 6vw;
+	margin-right: 2vw;
+}
+
+.login .login-button-access {
+	padding: 2vw;
+	margin: 0 5vw 0 5vw;
+	font-size: 4vw;
+}
+
+.login-buttons {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+.login .forgot-password {
+	color: grey;
+}
+.button-login {
+	color: white !important;
+}
+
+.login .link-register {
+	font-size: 4vw;
+	text-decoration: none;
+	margin-top: 5vw;
+	color: black;
+	margin-bottom: 5vw;
+}
+
+.login .link-register span {
+	text-decoration: underline;
+}
+
+.popup-content {
+	width: 80% !important;
+	padding: 5vw;
+	border: 1vw outset var(--gold);
+	border-radius: 3vw;
+}
+.password-popup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.password-popup h1 {
+	font-size: 5vw !important;
+}
+
+.password-popup input {
+	font-size: 5vw !important;
+}
+
+.password-popup .input-group-text {
+	font-size: 4.5vw;
+}
+.password-popup .input-group {
+	margin-top: 2vw;
+}
+
+.password-popup h1 {
+	font-size: 4vw;
+	margin-bottom: 5vw;
+	color: grey;
+}
+
+.password-popup button {
+	font-size: 4vw;
+	margin-top: 2vw;
+}

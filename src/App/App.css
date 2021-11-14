@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0vw;
+	padding: 0vw;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+	display: none;
+}
+
+.shown {
+	display: block !important;
+}
+
+.page-title {
+	font-family: StoneBoard, Times, serif;
+	width: 100%;
+	text-align: center;
+	font-size: 10vw;
+}
+
+.loader {
+	width: 20vw;
+	left: 40vw;
+	position: absolute;
+	margin-top: 20vw;
+}
+
+.version-popup-overlay .popup-content {
+	width: 100vw !important;
+	border-radius: 0vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0) !important;
+	margin: 0 !important;
+	border: none;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.version-modal img {
+	width: 30%;
+	margin-bottom: 5vw;
+}
+.version-modal {
+	background-color: white;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5vw;
+	text-align: center;
+	border-radius: 5vw;
+	border: 1vw ridge var(--gold);
+}
+
+.version-modal p {
+	font-size: 4vw;
+	text-align: left;
+	margin-top: 5vw;
+}
+.version-modal-background {
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
+	background-color: black;
+}
+
+.version-modal button {
+	font-size: 4vw;
+	width: 50%;
+	margin-top: 5vw;
+}

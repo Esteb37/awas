@@ -1,0 +1,65 @@
+.friends {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5vw;
+}
+
+.friends h1 {
+	font-size: 8vw;
+}
+
+.friends .input-group {
+	width: 80% !important;
+	margin-top: 5vw;
+}
+
+.friends .input-group input {
+	font-size: 5vw;
+}
+.friends .input-group-text {
+	height: 100% !important;
+	font-size: 5vw;
+}
+
+.queried-users {
+	width: 80vw;
+	border: solid var(--grey-blue);
+	border-width: 0vw 1vw 1vw 1vw;
+	padding: 2vw;
+	position: absolute;
+	z-index: 10000;
+	background-color: white;
+	top: 52vw;
+}
+
+.queried-user {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 2vw 0vw;
+	border-bottom: 0.5vw solid var(--grey-blue);
+}
+
+.queried-user h2 {
+	width: 43vw;
+	margin-right: 2vw;
+	font-size: 4vw;
+}
+
+.user-profile {
+	width: 10vw;
+	height: 10vw;
+	margin-right: 2vw;
+	border-radius: 50vw;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resi*/
+}
+
+.friends-list {
+	height: 70vh;
+	overflow-y: scroll;
+	padding-bottom: 10vw;
+}

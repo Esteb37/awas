@@ -1,0 +1,13 @@
+.no-connection {
+	margin-top: 5vw;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.no-connection h1 {
+	font-size: 4vw;
+	margin-top: 5%;
+}

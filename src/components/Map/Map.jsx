@@ -92,6 +92,8 @@ export default function Map() {
 				collection('events').onSnapshot((result) => {
 					setEvents(result.docs);
 
+					var dangerFlag = false;
+
 					result.docs.forEach((evnt) => {
 						let danger = isInRadius(
 							new firebase.firestore.GeoPoint(
@@ -101,11 +103,12 @@ export default function Map() {
 							evnt.data()
 						);
 
-						doc('users/' + auth?.currentUser?.uid).update({
-							health: !danger ? 'A salvo' : 'En peligro',
-						});
-						setInDanger(danger);
+						if (danger) dangerFlag = true;
 					});
+					doc('users/' + auth?.currentUser?.uid).update({
+						health: !dangerFlag ? 'A salvo' : 'En peligro',
+					});
+					setInDanger(dangerFlag);
 				});
 			});
 

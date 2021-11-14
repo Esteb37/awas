@@ -1,6 +1,6 @@
 import firebase from 'firebase/app';
 const firebaseConfig = {
-	apiKey: 'AIzaSyDt8gYYrERuXtkK9KNsJraqXkMgB3csRW8',
+	apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
 	authDomain: 'hackatec-2021.firebaseapp.com',
 	projectId: 'hackatec-2021',
 	storageBucket: 'hackatec-2021.appspot.com',

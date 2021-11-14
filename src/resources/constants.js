@@ -17,4 +17,4 @@ export const auth = firebase.auth();
 
 export const VERSION = '1.0.1';
 
-export const MAPS_API_KEY = 'AIzaSyDt8gYYrERuXtkK9KNsJraqXkMgB3csRW8';
+export const MAPS_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
